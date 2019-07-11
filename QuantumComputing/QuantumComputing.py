@@ -8,3 +8,5 @@ csp = dwavebinarycsp.factories.random_2in4sat(10, 7)
 bqm = dwavebinarycsp.stitch(csp)
 
 solution = sampler.sample(bqm)
+
+print "Finished with solution"
